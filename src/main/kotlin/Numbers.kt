@@ -42,6 +42,7 @@ fun main() {
     // A Double is a 64-bit decimal number
     // The largest number a Double can hold is 1.7976931348623157E308
 
+
     // Kotlin will automatically assign numbers as either ints or doubles depending on how they are typed
     // You can avoid this by explicitly stating the type when creating the variable
     // val example: Double = 1.3
@@ -89,6 +90,7 @@ fun main() {
     println(1.toDouble())
     println(1.toFloat())
 
+
     // Math
     println("\nMath")
     println(5 + 5) // Addition
@@ -98,6 +100,7 @@ fun main() {
     println(21 / 9) // This will return 10 as the result is an Integer
     println(21 / 9.toFloat()) // This is a float now, so it will return decimal making the answer 2.3333333
     println(21 / 9.toDouble()) // If you wanted more decimals using the 64-Bit Double would do that 2.3333333333333335
+
 
     // Binary Operators
     println("\nBinary Operators")
@@ -110,6 +113,7 @@ fun main() {
     println(8 and 2)
     println(8 or 2)
     println(8 xor 2)
+
 
     // Underscores to make numbers more readable
     println("\nUnderscores")

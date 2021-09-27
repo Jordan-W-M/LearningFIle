@@ -82,6 +82,9 @@ fun main() {
     longArrayOf(1,2,3,4,5,6,7,8,9) // Kotlin arrays for Longs
     doubleArrayOf(1.0,2.0,3.0) // Kotlin arrays for Doubles
     floatArrayOf(1.0F, 2.0F,3.0F) // Kotlin arrays for floats
+    
+
+
 
 
 

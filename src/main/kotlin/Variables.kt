@@ -20,6 +20,16 @@ fun main() {
     // Var is very useful in its own right obviously for any variable that you know will be changed as well as a
     // multitude of uses for objects within a loop. A good example of this would be a counter where you add 1 to the
     // var everytime the code loops.
+
+    // Variables names are case-sensitive. One and one would be two different variables.
+    // When creating a Variable name you can't have the first character be uppercase, but you do want to use uppercase
+    // characters for the start of all the subsequent words within the Variable name
+    // You also want to make sure that the name fully conveys what the Variable does. If you had a variable that
+    // held your net monthly salary you would right it like this. netMonthlySalary
+    // If you instead wrote it as netSalary this wouldn't be nearly as clear as many people write code on the
+    // same project unclear names can cause a lot of mistakes.
+
+
     //                                               Example
 
     println("\nLoop Example")
@@ -56,6 +66,15 @@ fun main() {
     // This is both faster and easier to fix if there was an error. Instead of having to go threw and update every
     // mention of the car details you could just change the information within the variable
     // which would update every place the variable is called
+
+    //                                               Variables
+    //                                               Practice Code
+
+    val amountOfApples = 10
+    val name = "Jordan"
+    val age = 24
+
+    println("$name currently has $amountOfApples apples which is more than enough to feed a $age year old man")
 
 
 
